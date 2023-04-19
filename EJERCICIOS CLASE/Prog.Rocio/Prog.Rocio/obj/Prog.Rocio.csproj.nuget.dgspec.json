@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\rocio\\source\\repos\\Prog.Rocio\\Prog.Rocio\\Prog.Rocio.csproj": {}
+    "C:\\Users\\rocio\\OneDrive\\Documentos\\GitHub\\Programacion1-2023-Rorellano\\EJERCICIOS CLASE\\Prog.Rocio\\Prog.Rocio\\Prog.Rocio.csproj": {}
   },
   "projects": {
-    "C:\\Users\\rocio\\source\\repos\\Prog.Rocio\\Prog.Rocio\\Prog.Rocio.csproj": {
+    "C:\\Users\\rocio\\OneDrive\\Documentos\\GitHub\\Programacion1-2023-Rorellano\\EJERCICIOS CLASE\\Prog.Rocio\\Prog.Rocio\\Prog.Rocio.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\rocio\\source\\repos\\Prog.Rocio\\Prog.Rocio\\Prog.Rocio.csproj",
+        "projectUniqueName": "C:\\Users\\rocio\\OneDrive\\Documentos\\GitHub\\Programacion1-2023-Rorellano\\EJERCICIOS CLASE\\Prog.Rocio\\Prog.Rocio\\Prog.Rocio.csproj",
         "projectName": "Prog.Rocio",
-        "projectPath": "C:\\Users\\rocio\\source\\repos\\Prog.Rocio\\Prog.Rocio\\Prog.Rocio.csproj",
+        "projectPath": "C:\\Users\\rocio\\OneDrive\\Documentos\\GitHub\\Programacion1-2023-Rorellano\\EJERCICIOS CLASE\\Prog.Rocio\\Prog.Rocio\\Prog.Rocio.csproj",
         "packagesPath": "C:\\Users\\rocio\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\rocio\\source\\repos\\Prog.Rocio\\Prog.Rocio\\obj\\",
+        "outputPath": "C:\\Users\\rocio\\OneDrive\\Documentos\\GitHub\\Programacion1-2023-Rorellano\\EJERCICIOS CLASE\\Prog.Rocio\\Prog.Rocio\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"

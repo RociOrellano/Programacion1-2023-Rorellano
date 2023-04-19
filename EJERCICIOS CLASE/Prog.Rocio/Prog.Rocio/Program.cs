@@ -14,10 +14,10 @@
 //} while (clave != "667788");
 
 //Console.WriteLine("la clave es correcta");//
-
+//Do While
 // 2 y 3
 
-int numm;
+/*int numm;
 int cont = 0;
 double suma = 0;
 
@@ -39,7 +39,7 @@ do
 } while ( num < 0);
 Console.WriteLine("correcto el numero es positivo");
 
-Console.WriteLine("el promedio es: " + suma/cont);
+Console.WriteLine("el promedio es: " + suma/cont);*/
 
 
 //4 y 5.
@@ -50,22 +50,44 @@ double suma = 0;
 
 Console.WriteLine("ingrese un numero:");
 
-string? num = Console.ReadLine();
+int num;
 
 do
 {
-    num = Console.ReadLine();
-    numm = int.Parse(num);
-    suma = suma + numm;
+    num = int.Parse(Console.ReadLine());
+
+    if (num > 0)
+    {
+        suma = suma + num;
+        cont = cont + 1;
+
+    }
+} while ( num < 999);
+
+Console.WriteLine("El numero supera las 3 cifras");
+
+Console.WriteLine("el promedio es: " + suma / cont);*/
+
+
+//While 1 y 2 
+
+/*Console.WriteLine("ingrese valor:");
+string? val = Console.ReadLine();
+int valor = int.Parse(val);
+int suma = 0;
+int cont = 0;
+while (valor > 0)
+{
+    suma = suma + valor;
+
+   Console.WriteLine("ingrese valor");
+   val = Console.ReadLine();
+   valor = int.Parse(val);
     cont = cont + 1;
+}
 
-
-
-} while (numm < 999);
-Console.WriteLine(" usted ingreso un numero mator de 3 cifras ");
-Console.WriteLine("el promedio es: ",(suma / cont)); */
-
-
+Console.WriteLine("la suma total de los valores es:" + suma);
+Console.WriteLine("el promedio de los valores es:" + suma / cont); */
 
 
 

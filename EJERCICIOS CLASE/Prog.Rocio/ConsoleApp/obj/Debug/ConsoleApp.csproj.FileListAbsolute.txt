@@ -1,0 +1,3 @@
+C:\Users\rocio\OneDrive\Documentos\GitHub\Programacion1-2023-Rorellano\EJERCICIOS CLASE\Prog.Rocio\ConsoleApp\obj\Debug\ConsoleApp.csproj.AssemblyReference.cache
+C:\Users\rocio\OneDrive\Documentos\GitHub\Programacion1-2023-Rorellano\EJERCICIOS CLASE\Prog.Rocio\ConsoleApp\obj\Debug\ConsoleApp.csproj.SuggestedBindingRedirects.cache
+C:\Users\rocio\OneDrive\Documentos\GitHub\Programacion1-2023-Rorellano\EJERCICIOS CLASE\Prog.Rocio\ConsoleApp\obj\Debug\ConsoleApp.csproj.CoreCompileInputs.cache

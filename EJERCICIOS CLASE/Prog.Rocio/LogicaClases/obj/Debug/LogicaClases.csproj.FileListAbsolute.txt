@@ -1,0 +1,2 @@
+C:\Users\rocio\OneDrive\Documentos\GitHub\Programacion1-2023-Rorellano\EJERCICIOS CLASE\Prog.Rocio\LogicaClases\obj\Debug\LogicaClases.csproj.AssemblyReference.cache
+C:\Users\rocio\OneDrive\Documentos\GitHub\Programacion1-2023-Rorellano\EJERCICIOS CLASE\Prog.Rocio\LogicaClases\obj\Debug\LogicaClases.csproj.CoreCompileInputs.cache

@@ -65,6 +65,77 @@ namespace ConsoleApp
             principal.AltaHistorial(historialAgregado.DNI, historialAgregado.Nombre, historialAgregado.Apellido, historialAgregado.FechayHora, historialAgregado.ObraSocial);
 
 
+            //menu
+            int opcion = 0;
+
+            Console.WriteLine("Elija que opcion realizar");
+            opcion = int.Parse(Console.ReadLine());
+
+            switch (opcion)
+            {
+              case 1 :
+                    
+                    Console.WriteLine("Ingrese los datos para el Historial");
+
+                    Console.WriteLine("Coloque el DNI");
+                    historialAgregado.DNI = int.Parse(Console.ReadLine());
+                    Console.WriteLine("Ingrese el nombre");
+                    historialAgregado.Nombre = Console.ReadLine();
+                    Console.WriteLine("Ingrese el apellido");
+                    historialAgregado.Apellido = Console.ReadLine();
+                    Console.WriteLine("coloque la fecha de nacimiento");
+                    historialAgregado.FechayHora = DateTime.Parse(Console.ReadLine());
+                    Console.WriteLine("coloque la especialidad");
+                    historialAgregado.ObraSocial = Console.ReadLine();
+
+                    principal.AltaHistorial(historialAgregado.DNI, historialAgregado.Nombre, historialAgregado.Apellido, historialAgregado.FechayHora, historialAgregado.ObraSocial);
+
+                    break;
+                   
+                case 2:
+                    Console.WriteLine("Ingrese los datos del Medico");
+
+                    Console.WriteLine("Coloque el DNI");
+                    medicoAgregado.DNI = int.Parse(Console.ReadLine());
+                    Console.WriteLine("Ingrese el nombre");
+                    medicoAgregado.Nombre = Console.ReadLine();
+                    Console.WriteLine("Ingrese el apellido");
+                    medicoAgregado.Apellido = Console.ReadLine();
+                    Console.WriteLine("coloque la fecha de nacimiento");
+                    medicoAgregado.FechaNacimiento = DateTime.Parse(Console.ReadLine());
+                    Console.WriteLine("coloque la especialidad");
+                    medicoAgregado.Especialidad = Console.ReadLine();
+
+
+                    principal.AltaMedico(medicoAgregado.DNI, medicoAgregado.Nombre, medicoAgregado.Apellido, medicoAgregado.FechaNacimiento, medicoAgregado.Especialidad);
+                    break; 
+                
+                case 3:
+                    Console.WriteLine("Ingrese los datos del Paciente");
+
+                    Console.WriteLine("Coloque el DNI");
+                    pacienteAgregado.DNI = int.Parse(Console.ReadLine());
+                    Console.WriteLine("Ingrese el nombre");
+                    pacienteAgregado.Nombre = Console.ReadLine();
+                    Console.WriteLine("Ingrese el apellido");
+                    pacienteAgregado.Apellido = Console.ReadLine();
+                    Console.WriteLine("coloque la fecha de nacimiento");
+                    pacienteAgregado.FechaNacimiento = DateTime.Parse(Console.ReadLine());
+
+
+                    principal.AltaPaciente(pacienteAgregado.DNI, pacienteAgregado.Nombre, pacienteAgregado.Apellido, pacienteAgregado.FechaNacimiento);
+                    break;
+
+                
+
+            }
+
+
+
+
+           
+           
+           
 
         }
     }

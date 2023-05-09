@@ -8,6 +8,8 @@ namespace LogicaClases
 {
     public class Secretaria : Persona
     {
+       //numero de legajo
+       //salario
 
     }
 }

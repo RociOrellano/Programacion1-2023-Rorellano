@@ -12,9 +12,6 @@ namespace LogicaClases
         public string Nombre { get; set; }
         public string contrasenia { get; set; }
 
-        
-        public bool ValidarUsuario(string pnombre, string contrasenia);
-         
-          if 
-    }
+
+    } 
 }

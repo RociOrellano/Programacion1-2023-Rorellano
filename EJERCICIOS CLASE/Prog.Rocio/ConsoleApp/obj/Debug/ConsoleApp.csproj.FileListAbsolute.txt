@@ -1,3 +1,14 @@
 C:\Users\rocio\OneDrive\Documentos\GitHub\Programacion1-2023-Rorellano\EJERCICIOS CLASE\Prog.Rocio\ConsoleApp\obj\Debug\ConsoleApp.csproj.AssemblyReference.cache
 C:\Users\rocio\OneDrive\Documentos\GitHub\Programacion1-2023-Rorellano\EJERCICIOS CLASE\Prog.Rocio\ConsoleApp\obj\Debug\ConsoleApp.csproj.SuggestedBindingRedirects.cache
 C:\Users\rocio\OneDrive\Documentos\GitHub\Programacion1-2023-Rorellano\EJERCICIOS CLASE\Prog.Rocio\ConsoleApp\obj\Debug\ConsoleApp.csproj.CoreCompileInputs.cache
+C:\Users\rocio\OneDrive\Escritorio\Programacion1-2023-Rorellano\EJERCICIOS CLASE\Prog.Rocio\ConsoleApp\obj\Debug\ConsoleApp.csproj.AssemblyReference.cache
+C:\Users\rocio\OneDrive\Escritorio\Programacion1-2023-Rorellano\EJERCICIOS CLASE\Prog.Rocio\ConsoleApp\obj\Debug\ConsoleApp.csproj.SuggestedBindingRedirects.cache
+C:\Users\rocio\OneDrive\Escritorio\Programacion1-2023-Rorellano\EJERCICIOS CLASE\Prog.Rocio\ConsoleApp\obj\Debug\ConsoleApp.csproj.CoreCompileInputs.cache
+C:\Users\rocio\OneDrive\Escritorio\Programacion1-2023-Rorellano\EJERCICIOS CLASE\Prog.Rocio\ConsoleApp\bin\Debug\ConsoleApp.exe.config
+C:\Users\rocio\OneDrive\Escritorio\Programacion1-2023-Rorellano\EJERCICIOS CLASE\Prog.Rocio\ConsoleApp\bin\Debug\ConsoleApp.exe
+C:\Users\rocio\OneDrive\Escritorio\Programacion1-2023-Rorellano\EJERCICIOS CLASE\Prog.Rocio\ConsoleApp\bin\Debug\ConsoleApp.pdb
+C:\Users\rocio\OneDrive\Escritorio\Programacion1-2023-Rorellano\EJERCICIOS CLASE\Prog.Rocio\ConsoleApp\bin\Debug\LogicaClases.dll
+C:\Users\rocio\OneDrive\Escritorio\Programacion1-2023-Rorellano\EJERCICIOS CLASE\Prog.Rocio\ConsoleApp\bin\Debug\LogicaClases.pdb
+C:\Users\rocio\OneDrive\Escritorio\Programacion1-2023-Rorellano\EJERCICIOS CLASE\Prog.Rocio\ConsoleApp\obj\Debug\ConsoleApp.csproj.CopyComplete
+C:\Users\rocio\OneDrive\Escritorio\Programacion1-2023-Rorellano\EJERCICIOS CLASE\Prog.Rocio\ConsoleApp\obj\Debug\ConsoleApp.exe
+C:\Users\rocio\OneDrive\Escritorio\Programacion1-2023-Rorellano\EJERCICIOS CLASE\Prog.Rocio\ConsoleApp\obj\Debug\ConsoleApp.pdb

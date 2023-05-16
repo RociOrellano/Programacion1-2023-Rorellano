@@ -1,0 +1,10 @@
+C:\Users\rocio\OneDrive\Documentos\GitHub\Programacion1-2023-Rorellano\EJERCICIOS CLASE\Prog.Rocio\LogicaClases\obj\Debug\LogicaClases.csproj.AssemblyReference.cache
+C:\Users\rocio\OneDrive\Documentos\GitHub\Programacion1-2023-Rorellano\EJERCICIOS CLASE\Prog.Rocio\LogicaClases\obj\Debug\LogicaClases.csproj.CoreCompileInputs.cache
+C:\Users\rocio\OneDrive\Documentos\GitHub\Programacion1-2023-Rorellano\Prog.Rocio\LogicaClases\obj\Debug\LogicaClases.csproj.AssemblyReference.cache
+C:\Users\rocio\OneDrive\Documentos\GitHub\Programacion1-2023-Rorellano\Prog.Rocio\LogicaClases\obj\Debug\LogicaClases.csproj.CoreCompileInputs.cache
+C:\Users\rocio\OneDrive\Escritorio\GitHub\Programacion1-2023-Rorellano\Prog.Rocio\LogicaClases\obj\Debug\LogicaClases.csproj.AssemblyReference.cache
+C:\Users\rocio\OneDrive\Escritorio\GitHub\Programacion1-2023-Rorellano\Prog.Rocio\LogicaClases\obj\Debug\LogicaClases.csproj.CoreCompileInputs.cache
+C:\Users\rocio\OneDrive\Documentos\GitHub\Programacion1-2023-Rorellano\Prog.Rocio\LogicaClases\bin\Debug\LogicaClases.dll
+C:\Users\rocio\OneDrive\Documentos\GitHub\Programacion1-2023-Rorellano\Prog.Rocio\LogicaClases\bin\Debug\LogicaClases.pdb
+C:\Users\rocio\OneDrive\Documentos\GitHub\Programacion1-2023-Rorellano\Prog.Rocio\LogicaClases\obj\Debug\LogicaClases.dll
+C:\Users\rocio\OneDrive\Documentos\GitHub\Programacion1-2023-Rorellano\Prog.Rocio\LogicaClases\obj\Debug\LogicaClases.pdb

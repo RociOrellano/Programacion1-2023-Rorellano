@@ -21,7 +21,7 @@ namespace WindowsFormsApp1
         private void button1_Click(object sender, EventArgs e)
         {
             Circulo micirculo = new Circulo();
-            //necesito el valor de radio que puso el usuario
+            //necesito el valor de radio que puso el usuarioc
             //pero como es un textbox que tiene string, tengo que cambiarlo a double
             micirculo.radio = double.Parse(textBox2.Text);
             //ahora si, con mi radio de tipo double puedo mandarlo a la propiedad del objeto
@@ -40,4 +40,6 @@ namespace WindowsFormsApp1
 
         }
     }
+
+    
 }

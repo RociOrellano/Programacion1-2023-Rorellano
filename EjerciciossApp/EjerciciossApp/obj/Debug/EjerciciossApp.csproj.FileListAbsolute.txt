@@ -1,0 +1,14 @@
+C:\Users\rocio\OneDrive\Documentos\GitHub\Programacion1-2023-Rorellano\EjerciciossApp\EjerciciossApp\bin\Debug\EjerciciossApp.exe.config
+C:\Users\rocio\OneDrive\Documentos\GitHub\Programacion1-2023-Rorellano\EjerciciossApp\EjerciciossApp\bin\Debug\EjerciciossApp.exe
+C:\Users\rocio\OneDrive\Documentos\GitHub\Programacion1-2023-Rorellano\EjerciciossApp\EjerciciossApp\bin\Debug\EjerciciossApp.pdb
+C:\Users\rocio\OneDrive\Documentos\GitHub\Programacion1-2023-Rorellano\EjerciciossApp\EjerciciossApp\bin\Debug\ClasessApp.dll
+C:\Users\rocio\OneDrive\Documentos\GitHub\Programacion1-2023-Rorellano\EjerciciossApp\EjerciciossApp\bin\Debug\ClasessApp.pdb
+C:\Users\rocio\OneDrive\Documentos\GitHub\Programacion1-2023-Rorellano\EjerciciossApp\EjerciciossApp\obj\Debug\EjerciciossApp.csproj.AssemblyReference.cache
+C:\Users\rocio\OneDrive\Documentos\GitHub\Programacion1-2023-Rorellano\EjerciciossApp\EjerciciossApp\obj\Debug\EjerciciossApp.csproj.SuggestedBindingRedirects.cache
+C:\Users\rocio\OneDrive\Documentos\GitHub\Programacion1-2023-Rorellano\EjerciciossApp\EjerciciossApp\obj\Debug\EjerciciossApp.Properties.Resources.resources
+C:\Users\rocio\OneDrive\Documentos\GitHub\Programacion1-2023-Rorellano\EjerciciossApp\EjerciciossApp\obj\Debug\EjerciciossApp.PruebaProyect.resources
+C:\Users\rocio\OneDrive\Documentos\GitHub\Programacion1-2023-Rorellano\EjerciciossApp\EjerciciossApp\obj\Debug\EjerciciossApp.csproj.GenerateResource.cache
+C:\Users\rocio\OneDrive\Documentos\GitHub\Programacion1-2023-Rorellano\EjerciciossApp\EjerciciossApp\obj\Debug\EjerciciossApp.csproj.CoreCompileInputs.cache
+C:\Users\rocio\OneDrive\Documentos\GitHub\Programacion1-2023-Rorellano\EjerciciossApp\EjerciciossApp\obj\Debug\EjerciciossApp.csproj.CopyComplete
+C:\Users\rocio\OneDrive\Documentos\GitHub\Programacion1-2023-Rorellano\EjerciciossApp\EjerciciossApp\obj\Debug\EjerciciossApp.exe
+C:\Users\rocio\OneDrive\Documentos\GitHub\Programacion1-2023-Rorellano\EjerciciossApp\EjerciciossApp\obj\Debug\EjerciciossApp.pdb

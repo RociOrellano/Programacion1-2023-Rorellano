@@ -13,25 +13,13 @@ namespace EjerciciossApp
 {
     public partial class PruebaProyect : Form
     {
-       List<Carrito> listmiCarrito = new List<Carrito>();
+        public PruebaProyect() 
+        {
+           InitializeComponent();
+        }
+       
+           List<Carrito> listmiCarrito = new List<Carrito>();
         
-           
-        
-        private void toolStripComboBox2_Click(object sender, EventArgs e)
-        {
-
-        }
-
-        private void toolStripTextBox1_Click(object sender, EventArgs e)
-        {
-
-        }
-
-        private void secretariaToolStripMenuItem_Click(object sender, EventArgs e)
-        {
-
-        }
-
         private void textBox4_TextChanged(object sender, EventArgs e)
         {
 
@@ -78,6 +66,18 @@ namespace EjerciciossApp
         {
             Servicio mSer = new Servicio();
             mSer.Nombre_servicio = txtNombre.Text;
+            mSer.Importe = int.Parse(txtimporte.Text);
+
+            listmiCarrito.Add(mSer);
+        }
+
+        private void button4_Click(object sender, EventArgs e)
+        {
+            Seguro miSeg = new Seguro();
+            miSeg.numeroPoliza = int.Parse(txtnroPoliza.Text);
+            miSeg.Premio = double.Parse(txtPremio.Text);
+
+            listmiCarrito.Add(miSeg);
         }
     }
 }

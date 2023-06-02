@@ -45,6 +45,12 @@
             this.label2 = new System.Windows.Forms.Label();
             this.label3 = new System.Windows.Forms.Label();
             this.label4 = new System.Windows.Forms.Label();
+            this.Seguro = new System.Windows.Forms.Button();
+            this.txtPremio = new System.Windows.Forms.TextBox();
+            this.txtnroPoliza = new System.Windows.Forms.TextBox();
+            this.label5 = new System.Windows.Forms.Label();
+            this.label6 = new System.Windows.Forms.Label();
+            this.label7 = new System.Windows.Forms.Label();
             this.contextMenuStrip2.SuspendLayout();
             this.SuspendLayout();
             // 
@@ -82,9 +88,9 @@
             // 
             // button1
             // 
-            this.button1.Location = new System.Drawing.Point(118, 212);
+            this.button1.Location = new System.Drawing.Point(43, 199);
             this.button1.Name = "button1";
-            this.button1.Size = new System.Drawing.Size(90, 44);
+            this.button1.Size = new System.Drawing.Size(108, 64);
             this.button1.TabIndex = 2;
             this.button1.Text = "Product";
             this.button1.UseVisualStyleBackColor = true;
@@ -92,7 +98,7 @@
             // 
             // button2
             // 
-            this.button2.Location = new System.Drawing.Point(325, 290);
+            this.button2.Location = new System.Drawing.Point(340, 305);
             this.button2.Name = "button2";
             this.button2.Size = new System.Drawing.Size(100, 33);
             this.button2.TabIndex = 3;
@@ -102,7 +108,7 @@
             // 
             // button3
             // 
-            this.button3.Location = new System.Drawing.Point(503, 199);
+            this.button3.Location = new System.Drawing.Point(597, 199);
             this.button3.Name = "button3";
             this.button3.Size = new System.Drawing.Size(115, 57);
             this.button3.TabIndex = 4;
@@ -112,28 +118,28 @@
             // 
             // txtMarca
             // 
-            this.txtMarca.Location = new System.Drawing.Point(141, 72);
+            this.txtMarca.Location = new System.Drawing.Point(107, 72);
             this.txtMarca.Name = "txtMarca";
             this.txtMarca.Size = new System.Drawing.Size(100, 22);
             this.txtMarca.TabIndex = 5;
             // 
             // txtNombre
             // 
-            this.txtNombre.Location = new System.Drawing.Point(518, 72);
+            this.txtNombre.Location = new System.Drawing.Point(658, 69);
             this.txtNombre.Name = "txtNombre";
             this.txtNombre.Size = new System.Drawing.Size(100, 22);
             this.txtNombre.TabIndex = 6;
             // 
             // txtPrecio
             // 
-            this.txtPrecio.Location = new System.Drawing.Point(141, 131);
+            this.txtPrecio.Location = new System.Drawing.Point(107, 134);
             this.txtPrecio.Name = "txtPrecio";
             this.txtPrecio.Size = new System.Drawing.Size(100, 22);
             this.txtPrecio.TabIndex = 7;
             // 
             // txtimporte
             // 
-            this.txtimporte.Location = new System.Drawing.Point(518, 131);
+            this.txtimporte.Location = new System.Drawing.Point(658, 128);
             this.txtimporte.Name = "txtimporte";
             this.txtimporte.Size = new System.Drawing.Size(100, 22);
             this.txtimporte.TabIndex = 8;
@@ -142,7 +148,7 @@
             // label1
             // 
             this.label1.AutoSize = true;
-            this.label1.Location = new System.Drawing.Point(64, 78);
+            this.label1.Location = new System.Drawing.Point(24, 75);
             this.label1.Name = "label1";
             this.label1.Size = new System.Drawing.Size(45, 16);
             this.label1.TabIndex = 9;
@@ -152,7 +158,7 @@
             // label2
             // 
             this.label2.AutoSize = true;
-            this.label2.Location = new System.Drawing.Point(64, 137);
+            this.label2.Location = new System.Drawing.Point(23, 134);
             this.label2.Name = "label2";
             this.label2.Size = new System.Drawing.Size(46, 16);
             this.label2.TabIndex = 10;
@@ -162,7 +168,7 @@
             // label3
             // 
             this.label3.AutoSize = true;
-            this.label3.Location = new System.Drawing.Point(434, 72);
+            this.label3.Location = new System.Drawing.Point(544, 72);
             this.label3.Name = "label3";
             this.label3.Size = new System.Drawing.Size(56, 16);
             this.label3.TabIndex = 11;
@@ -171,17 +177,73 @@
             // label4
             // 
             this.label4.AutoSize = true;
-            this.label4.Location = new System.Drawing.Point(434, 134);
+            this.label4.Location = new System.Drawing.Point(548, 134);
             this.label4.Name = "label4";
             this.label4.Size = new System.Drawing.Size(52, 16);
             this.label4.TabIndex = 12;
             this.label4.Text = "Importe";
+            // 
+            // Seguro
+            // 
+            this.Seguro.Location = new System.Drawing.Point(325, 203);
+            this.Seguro.Name = "Seguro";
+            this.Seguro.Size = new System.Drawing.Size(115, 57);
+            this.Seguro.TabIndex = 13;
+            this.Seguro.Text = "Seguro";
+            this.Seguro.UseVisualStyleBackColor = true;
+            this.Seguro.Click += new System.EventHandler(this.button4_Click);
+            // 
+            // txtPremio
+            // 
+            this.txtPremio.Location = new System.Drawing.Point(374, 134);
+            this.txtPremio.Name = "txtPremio";
+            this.txtPremio.Size = new System.Drawing.Size(100, 22);
+            this.txtPremio.TabIndex = 14;
+            // 
+            // txtnroPoliza
+            // 
+            this.txtnroPoliza.Location = new System.Drawing.Point(374, 72);
+            this.txtnroPoliza.Name = "txtnroPoliza";
+            this.txtnroPoliza.Size = new System.Drawing.Size(100, 22);
+            this.txtnroPoliza.TabIndex = 15;
+            // 
+            // label5
+            // 
+            this.label5.AutoSize = true;
+            this.label5.Location = new System.Drawing.Point(267, 78);
+            this.label5.Name = "label5";
+            this.label5.Size = new System.Drawing.Size(0, 16);
+            this.label5.TabIndex = 16;
+            // 
+            // label6
+            // 
+            this.label6.AutoSize = true;
+            this.label6.Location = new System.Drawing.Point(273, 75);
+            this.label6.Name = "label6";
+            this.label6.Size = new System.Drawing.Size(66, 16);
+            this.label6.TabIndex = 17;
+            this.label6.Text = "NroPoliza";
+            // 
+            // label7
+            // 
+            this.label7.AutoSize = true;
+            this.label7.Location = new System.Drawing.Point(273, 137);
+            this.label7.Name = "label7";
+            this.label7.Size = new System.Drawing.Size(50, 16);
+            this.label7.TabIndex = 18;
+            this.label7.Text = "Premio";
             // 
             // PruebaProyect
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(8F, 16F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.ClientSize = new System.Drawing.Size(800, 450);
+            this.Controls.Add(this.label7);
+            this.Controls.Add(this.label6);
+            this.Controls.Add(this.label5);
+            this.Controls.Add(this.txtnroPoliza);
+            this.Controls.Add(this.txtPremio);
+            this.Controls.Add(this.Seguro);
             this.Controls.Add(this.label4);
             this.Controls.Add(this.label3);
             this.Controls.Add(this.label2);
@@ -219,5 +281,11 @@
         private System.Windows.Forms.Label label2;
         private System.Windows.Forms.Label label3;
         private System.Windows.Forms.Label label4;
+        private System.Windows.Forms.Button Seguro;
+        private System.Windows.Forms.TextBox txtPremio;
+        private System.Windows.Forms.TextBox txtnroPoliza;
+        private System.Windows.Forms.Label label5;
+        private System.Windows.Forms.Label label6;
+        private System.Windows.Forms.Label label7;
     }
 }

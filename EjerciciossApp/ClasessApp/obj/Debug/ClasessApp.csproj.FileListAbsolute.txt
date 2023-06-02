@@ -1,0 +1,6 @@
+C:\Users\rocio\OneDrive\Documentos\GitHub\Programacion1-2023-Rorellano\EjerciciossApp\ClasessApp\bin\Debug\ClasessApp.dll
+C:\Users\rocio\OneDrive\Documentos\GitHub\Programacion1-2023-Rorellano\EjerciciossApp\ClasessApp\bin\Debug\ClasessApp.pdb
+C:\Users\rocio\OneDrive\Documentos\GitHub\Programacion1-2023-Rorellano\EjerciciossApp\ClasessApp\obj\Debug\ClasessApp.csproj.AssemblyReference.cache
+C:\Users\rocio\OneDrive\Documentos\GitHub\Programacion1-2023-Rorellano\EjerciciossApp\ClasessApp\obj\Debug\ClasessApp.csproj.CoreCompileInputs.cache
+C:\Users\rocio\OneDrive\Documentos\GitHub\Programacion1-2023-Rorellano\EjerciciossApp\ClasessApp\obj\Debug\ClasessApp.dll
+C:\Users\rocio\OneDrive\Documentos\GitHub\Programacion1-2023-Rorellano\EjerciciossApp\ClasessApp\obj\Debug\ClasessApp.pdb

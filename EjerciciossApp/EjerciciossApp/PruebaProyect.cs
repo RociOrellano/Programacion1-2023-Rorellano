@@ -79,5 +79,10 @@ namespace EjerciciossApp
 
             listmiCarrito.Add(miSeg);
         }
+
+        private void txtMarca_TextChanged(object sender, EventArgs e)
+        {
+
+        }
     }
 }

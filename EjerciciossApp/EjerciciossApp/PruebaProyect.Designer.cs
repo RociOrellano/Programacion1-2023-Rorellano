@@ -122,6 +122,7 @@
             this.txtMarca.Name = "txtMarca";
             this.txtMarca.Size = new System.Drawing.Size(100, 22);
             this.txtMarca.TabIndex = 5;
+            this.txtMarca.TextChanged += new System.EventHandler(this.txtMarca_TextChanged);
             // 
             // txtNombre
             // 

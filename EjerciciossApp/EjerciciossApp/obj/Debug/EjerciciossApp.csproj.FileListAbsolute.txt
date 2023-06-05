@@ -12,3 +12,4 @@ C:\Users\rocio\OneDrive\Documentos\GitHub\Programacion1-2023-Rorellano\Ejercicio
 C:\Users\rocio\OneDrive\Documentos\GitHub\Programacion1-2023-Rorellano\EjerciciossApp\EjerciciossApp\obj\Debug\EjerciciossApp.csproj.CopyComplete
 C:\Users\rocio\OneDrive\Documentos\GitHub\Programacion1-2023-Rorellano\EjerciciossApp\EjerciciossApp\obj\Debug\EjerciciossApp.exe
 C:\Users\rocio\OneDrive\Documentos\GitHub\Programacion1-2023-Rorellano\EjerciciossApp\EjerciciossApp\obj\Debug\EjerciciossApp.pdb
+C:\Users\rocio\OneDrive\Documentos\GitHub\Programacion1-2023-Rorellano\EjerciciossApp\EjerciciossApp\obj\Debug\EjerciciossApp.Form2.resources

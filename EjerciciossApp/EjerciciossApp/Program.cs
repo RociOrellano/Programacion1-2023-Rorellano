@@ -17,7 +17,7 @@ namespace EjerciciossApp
         {
             Application.EnableVisualStyles();
             Application.SetCompatibleTextRenderingDefault(false);
-            Application.Run(new PruebaProyect());
+            Application.Run(new Form2());
         }
     }
 }

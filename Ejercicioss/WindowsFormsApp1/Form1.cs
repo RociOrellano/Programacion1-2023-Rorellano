@@ -13,6 +13,7 @@ namespace WindowsFormsApp1
 {
     public partial class Form1 : Form
     {
+        private List<Animal> animalitos = new List<Animal>();
         public Form1()
         {
             InitializeComponent();
@@ -37,9 +38,48 @@ namespace WindowsFormsApp1
 
         private void Form1_Load(object sender, EventArgs e)
         {
-
+            comboBox1.Items.Add("Perro");
+            comboBox1.Items.Add("Gato");
+            comboBox1.Items.Add("Vaca");
         }
+
+        private void comboBox1_SelectedIndexChanged(object sender, EventArgs e)
+        {
+            string laOpcion = comboBox1.SelectedItem.ToString();
+
+            if (laOpcion == "Perro")
+            {
+                Perro miPerro = new Perro();
+                animalitos.Add(new Perro());
+            }
+            else
+            {
+                if (laOpcion == "Gato")
+                {
+
+                    Gato migato = new Gato();
+                    animalitos.Add(new Gato());
+                }
+                else
+                {
+                    Vaca mivaca = new Vaca();
+                    animalitos.Add(new Vaca());
+                }
     }
 
     
-}
+            }
+
+        private void label5_Click(object sender, EventArgs e)
+        {
+            if (textBox1.Text == "Perro")
+            {
+                label5.Text = 
+            }
+        }
+    }
+
+
+    }
+ 
+

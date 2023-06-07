@@ -1,0 +1,11 @@
+C:\Users\rocio\OneDrive\Documentos\GitHub\Programacion1-2023-Rorellano\Ejercicioss\Ejercicioss\bin\Debug\Ejercicioss.exe.config
+C:\Users\rocio\OneDrive\Documentos\GitHub\Programacion1-2023-Rorellano\Ejercicioss\Ejercicioss\bin\Debug\Ejercicioss.exe
+C:\Users\rocio\OneDrive\Documentos\GitHub\Programacion1-2023-Rorellano\Ejercicioss\Ejercicioss\bin\Debug\Ejercicioss.pdb
+C:\Users\rocio\OneDrive\Documentos\GitHub\Programacion1-2023-Rorellano\Ejercicioss\Ejercicioss\bin\Debug\Clasess.dll
+C:\Users\rocio\OneDrive\Documentos\GitHub\Programacion1-2023-Rorellano\Ejercicioss\Ejercicioss\bin\Debug\Clasess.pdb
+C:\Users\rocio\OneDrive\Documentos\GitHub\Programacion1-2023-Rorellano\Ejercicioss\Ejercicioss\obj\Debug\Ejercicioss.csproj.AssemblyReference.cache
+C:\Users\rocio\OneDrive\Documentos\GitHub\Programacion1-2023-Rorellano\Ejercicioss\Ejercicioss\obj\Debug\Ejercicioss.csproj.SuggestedBindingRedirects.cache
+C:\Users\rocio\OneDrive\Documentos\GitHub\Programacion1-2023-Rorellano\Ejercicioss\Ejercicioss\obj\Debug\Ejercicioss.csproj.CoreCompileInputs.cache
+C:\Users\rocio\OneDrive\Documentos\GitHub\Programacion1-2023-Rorellano\Ejercicioss\Ejercicioss\obj\Debug\Ejercicioss.csproj.CopyComplete
+C:\Users\rocio\OneDrive\Documentos\GitHub\Programacion1-2023-Rorellano\Ejercicioss\Ejercicioss\obj\Debug\Ejercicioss.exe
+C:\Users\rocio\OneDrive\Documentos\GitHub\Programacion1-2023-Rorellano\Ejercicioss\Ejercicioss\obj\Debug\Ejercicioss.pdb

@@ -6,12 +6,12 @@ using System.Threading.Tasks;
 
 namespace Clasess
 {
-    internal class Animal
-    {
-        public string Nombre { get; set; }
-        public string HacerSonido() //metodo
+    public class Perro : Animal
+    { 
+        public string raza { get; set; } 
+        public override string hacerSonido()
         {
-            return "";
+            return "guau";
         }
     }
 }

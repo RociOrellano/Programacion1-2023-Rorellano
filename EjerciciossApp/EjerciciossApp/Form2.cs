@@ -37,9 +37,12 @@ namespace EjerciciossApp
 
         private void Form2_Load(object sender, EventArgs e)
         {
-            comboBox1.Items.Add("Producto");
+           /* comboBox1.Items.Add("Producto");
             comboBox1.Items.Add("Servicio");
-            comboBox1.Items.Add("Seguro");
+            comboBox1.Items.Add("Seguro");*/
+           List<MarcaCelular> LaListaParaElCombo = MarcaCelular.dameMarca();
+            comboBox1.Items.AddRange(LaListaParaElCombo.ToArray());
+            comboBox1.DisplayMember = "nameMarca";
         }
 
         private void button1_Click(object sender, EventArgs e)

@@ -21,7 +21,7 @@ namespace EjerciciossApp
 
         private void comboBox1_SelectedIndexChanged(object sender, EventArgs e)
         {
-            string elElegido = comboBox1.SelectedItem.ToString();
+        /*    string elElegido = comboBox1.SelectedItem.ToString();
 
             if (elElegido == "Seguro")
             { 
@@ -32,7 +32,7 @@ namespace EjerciciossApp
                     label2.Text = "Marca:";
                 }else { label2.Text = "Nombre: ";};
 
-            } // MessageBox.Show("Me seleccionaste: " + elElegido);
+            } // MessageBox.Show("Me seleccionaste: " + elElegido);*/
         }
 
         private void Form2_Load(object sender, EventArgs e)
@@ -85,6 +85,28 @@ namespace EjerciciossApp
                 costoAPagar = costoAPagar + miProd.dameCosto();
             }
             MessageBox.Show("Debe pagar " + costoAPagar + ". Gracias ");
+        }
+
+        private void button3_Click(object sender, EventArgs e)
+        {
+            Celular miCel = new Celular();
+            List<MarcaCelular> laLista = MarcaCelular.dameMarca();
+
+            miCel.precio = int.Parse(textBox1.Text);
+            miCel.numero = textBox2.Text;
+            miCel.marca = (MarcaCelular)comboBox1.SelectedItem;
+
+            MessageBox.Show("se acaba de generar un celu de marca: " + miCel.marca.nameMarca);
+        }
+
+        private void textBox1_TextChanged(object sender, EventArgs e)
+        {
+
+        }
+
+        private void label3_Click(object sender, EventArgs e)
+        {
+
         }
     }
     }

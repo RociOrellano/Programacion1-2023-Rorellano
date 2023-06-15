@@ -108,5 +108,24 @@ namespace EjerciciossApp
         {
 
         }
+
+        private void button2_Click(object sender, EventArgs e)
+        {
+
+        }
+
+        private void button4_Click(object sender, EventArgs e)
+        {
+            MessageBox.Show("ingrese");
+
+            comboBox1.Items.AddRange(MarcaCelular.dameMarca().ToArray());
+            //para probarlo voy a meter una marca
+            MarcaCelular unaMas = new MarcaCelular();
+            unaMas.nameMarca = "LG";
+
+            MarcaCelular.dameMarca().Add(unaMas);
+
+            MessageBox.Show("chau");
+        }
     }
     }

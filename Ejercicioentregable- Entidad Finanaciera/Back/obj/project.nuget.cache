@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "yUNC5hLC2HnaHBo5WCiztgQJOkQKqzcPUg6230A689YQN8uyy3IFcCUAFfgrWsDHHLHvB0DjICdADfqW8rCf2w==",
+  "dgSpecHash": "z/1qxifnp3ugEQk35CTRksp8fL33gkYX7IJAD3CQDqhJVcf9vcVjQVRAh65yBRBqAKcokRFTUHDTBduXzUyiGQ==",
   "success": true,
-  "projectFilePath": "C:\\Users\\rocio\\OneDrive\\Documentos\\GitHub\\Ejercicioentregable- Entidad Finanaciera\\Back\\Back.csproj",
+  "projectFilePath": "C:\\Users\\rocio\\OneDrive\\Documentos\\GitHub\\Programacion1-2023-Rorellano\\Ejercicioentregable- Entidad Finanaciera\\Back\\Back.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\rocio\\.nuget\\packages\\azure.core\\1.25.0\\azure.core.1.25.0.nupkg.sha512",
     "C:\\Users\\rocio\\.nuget\\packages\\azure.identity\\1.7.0\\azure.identity.1.7.0.nupkg.sha512",

@@ -6,36 +6,36 @@
 
 
         // Metodos
-        public void AgregarCliente(Cliente cliente) 
+        public void AgregarCliente(Cliente cliente)
         {
             using (var context = new ApplicationDbContext())
             {
-               var nuevoCliente = new Cliente { nombre = cliente.nombre, apellido = cliente.apellido, dni = cliente.dni};
-               context.Clientes.Add(nuevoCliente);
-               context.SaveChanges();
+                var nuevoCliente = new Cliente { nombre = cliente.nombre, apellido = cliente.apellido, dni = cliente.dni };
+                context.Clientes.Add(nuevoCliente);
+                context.SaveChanges();
             }
         }
-        public void CrearCuentaBancaria(Cuenta_Bancaria cuentaBancaria) 
+        public void CrearCuentaBancaria(Cuenta_Bancaria cuentaBancaria)
         {
             using (var context = new ApplicationDbContext())
             {
-                var nuevaCuentaBancaria = new Cuenta_Bancaria { titular = cuentaBancaria.titular, numeroCuenta= cuentaBancaria.numeroCuenta,saldo = cuentaBancaria.saldo, tipo = cuentaBancaria.tipo};
+                var nuevaCuentaBancaria = new Cuenta_Bancaria { titular = cuentaBancaria.titular, numeroCuenta = cuentaBancaria.numeroCuenta, saldo = cuentaBancaria.saldo, tipo = cuentaBancaria.tipo };
                 context.CuentasBancarias.Add(nuevaCuentaBancaria);
                 context.SaveChanges();
             }
         }
-        public void EmitirTarjetaCredito(Cliente cliente) 
+        public void EmitirTarjetaCredito(Cliente cliente)
         {
-             
+
             using (var context = new ApplicationDbContext())
             {
 
-                var nuevaTarjetaDeCredito = new Tarjeta_de_Crédito ();
+                var nuevaTarjetaDeCredito = new Tarjeta_de_Crédito();
                 context.TarjetasDeCredito.Add(nuevaTarjetaDeCredito);
                 context.SaveChanges();
             }
         }
-        public void PausarTarjetaCredito() 
+        public void PausarTarjetaCredito()
         {
             using (var context = new ApplicationDbContext())
             {
@@ -46,23 +46,23 @@
             }
         }
         public void RealizarDeposito(double monto)
-        { 
-            using (var context = new ApplicationDbContext()) 
+        {
+            using (var context = new ApplicationDbContext())
             {
                 Cuenta_Bancaria nuevodeposito = new Cuenta_Bancaria();
                 if (monto > 0)
                 {
                     nuevodeposito.saldo += monto;
                 }
-                else 
+                else
                 {
                     return;//"ingrese otro monto";
                 }
                 context.SaveChanges();
             }
-               
+
         }
-        public void RealiarExtraccion(double monto) 
+        public void RealiarExtraccion(double monto)
         {
             using (var context = new ApplicationDbContext())
             {
@@ -71,19 +71,19 @@
                 {
                     nuevaextraccion.saldo -= monto;
                 }
-                else if (monto > 0 )
+                else if (monto > 0)
                 {
                     return;//"ingrese un monto mayor a cero";
                 }
-                else 
-                { 
+                else
+                {
                     return;//"saldo insuficiente" 
                 }
                 context.SaveChanges();
 
             }
         }
-        public void RealizarTransferencia(Cuenta_Bancaria cuentaDestino, double monto) 
+        public void RealizarTransferencia(Cuenta_Bancaria cuentaDestino, double monto)
         {
             using (var context = new ApplicationDbContext())
             {
@@ -102,11 +102,31 @@
                 }
                 context.SaveChanges();
             }
-        public void PagarTarjetaCredito( ) { }
-        public void GenerarResumenTarjeta( ) { }
+
+            public void PagarTarjetaCredito(double monto)
+               {
+                using (var context = new ApplicationDbContext())
+                {
+                    Tarjeta_de_Crédito cuentaTitular = new Tarjeta_de_Crédito();
+                    if (monto > 0 && monto <= cuentaTitular.montoDeuda)
+                    {
+                        cuentaTitular.montoDeuda -= monto;
+                    }
+                    else if (monto > 0)
+                    {
+                        return;//"ingrese un monto mayor a cero";
+                    }
+
+                    context.SaveChanges();
+                } 
+            }
+            
+            public void GenerarResumenTarjeta() { }
 
 
 
 
+            }
+        }
     }
-}
+

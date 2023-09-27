@@ -12,5 +12,7 @@ namespace Back
         public int numerotarjeta { get; set; }
         public double limiteCredito { get; set; }
         public string estado { get; set; } // Activa,Pausada,Bloqueada
+        public double montoDeuda { get; set; }
+
     }
 }

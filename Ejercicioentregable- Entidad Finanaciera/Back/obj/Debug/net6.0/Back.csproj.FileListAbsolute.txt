@@ -1,0 +1,5 @@
+C:\Users\rocio\OneDrive\Documentos\GitHub\Programacion1-2023-Rorellano\Ejercicioentregable- Entidad Finanaciera\Back\obj\Debug\net6.0\Back.csproj.AssemblyReference.cache
+C:\Users\rocio\OneDrive\Documentos\GitHub\Programacion1-2023-Rorellano\Ejercicioentregable- Entidad Finanaciera\Back\obj\Debug\net6.0\Back.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\rocio\OneDrive\Documentos\GitHub\Programacion1-2023-Rorellano\Ejercicioentregable- Entidad Finanaciera\Back\obj\Debug\net6.0\Back.AssemblyInfoInputs.cache
+C:\Users\rocio\OneDrive\Documentos\GitHub\Programacion1-2023-Rorellano\Ejercicioentregable- Entidad Finanaciera\Back\obj\Debug\net6.0\Back.AssemblyInfo.cs
+C:\Users\rocio\OneDrive\Documentos\GitHub\Programacion1-2023-Rorellano\Ejercicioentregable- Entidad Finanaciera\Back\obj\Debug\net6.0\Back.csproj.CoreCompileInputs.cache

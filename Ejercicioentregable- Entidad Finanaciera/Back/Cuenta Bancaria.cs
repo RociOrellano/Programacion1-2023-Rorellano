@@ -1,5 +1,6 @@
 ﻿using System;
 using System.Collections.Generic;
+using System.ComponentModel.DataAnnotations;
 using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
@@ -8,6 +9,7 @@ namespace Back
 {
     public class Cuenta_Bancaria
     {
+        [Key]
         public int idCuentaBancaria { get; set; }
         public int numeroCuenta { get; set; }
         public double saldo { get; set; }

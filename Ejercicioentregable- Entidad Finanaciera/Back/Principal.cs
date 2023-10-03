@@ -1,4 +1,6 @@
-﻿namespace Back
+﻿using System.ComponentModel;
+
+namespace Back
 {
     public class Principal
     {
@@ -35,13 +37,15 @@
                 context.SaveChanges();
             }
         }
-        public void PausarTarjetaCredito()
+        public void PausarTarjetaCredito(Tarjeta_de_Crédito tarjetaDeCredito)
         {
             using (var context = new ApplicationDbContext())
             {
                 Tarjeta_de_Crédito pausarTarjeta = new Tarjeta_de_Crédito();
-                var tarjetaBuscada = context.TarjetasDeCredito.Find(x => x.idTarjetaCredito == idTarjetaCredito);
-                tarjetaBuscada.estado = tarjetaBuscada.estado;
+                var tarjetaBuscada = context.TarjetasDeCredito.Find(tarjetaDeCredito.numerotarjeta);
+                if (tarjetaBuscada != null)
+                    
+                    tarjetaBuscada.estado = tarjetaBuscada.estado;
                 context.SaveChanges();
             }
         }
@@ -102,31 +106,49 @@
                 }
                 context.SaveChanges();
             }
+        }
 
-            public void PagarTarjetaCredito(double monto)
-               {
-                using (var context = new ApplicationDbContext())
+        public void PagarTarjetaCredito(double monto)
+        {
+            using (var context = new ApplicationDbContext())
+            {
+                Tarjeta_de_Crédito cuentaTitular = new Tarjeta_de_Crédito();
+                if (monto > 0 && monto <= cuentaTitular.montoDeuda)
                 {
-                    Tarjeta_de_Crédito cuentaTitular = new Tarjeta_de_Crédito();
-                    if (monto > 0 && monto <= cuentaTitular.montoDeuda)
-                    {
-                        cuentaTitular.montoDeuda -= monto;
-                    }
-                    else if (monto > 0)
-                    {
-                        return;//"ingrese un monto mayor a cero";
-                    }
+                    cuentaTitular.montoDeuda -= monto;
+                }
+                else if (monto > 0)
+                {
+                    return;//"ingrese un monto mayor a cero";
+                }
 
-                    context.SaveChanges();
-                } 
+                context.SaveChanges();
+            }
+        } 
+            
+            
+        public void GenerarResumenTarjeta(Tarjeta_de_Crédito tarjetaDeCredito) 
+        {
+            using (var context = new ApplicationDbContext()) 
+            {
+                Tarjeta_de_Crédito cuentaTitular = new Tarjeta_de_Crédito();
+
+                var listaTransacciones = context.Transacciones.ToList();
+
+                //return ("Numero de Tarjeta"{ tarjetaDeCredito.numerotarjeta}, "Limite de Credito"{ tarjetaDeCredito.limiteCredito} "Estado" { tarjetaDeCredito.estado}, "Monto Adeudado"{ tarjetaDeCredito.montoDeuda}, "Transacciones" { tarjetaDeCredito.listaTransacciones});
+                
+
+
+
             }
             
-            public void GenerarResumenTarjeta() { }
+        }
 
 
 
 
             }
         }
-    }
+    
+
 

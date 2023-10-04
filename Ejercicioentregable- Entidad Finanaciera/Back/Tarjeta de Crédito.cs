@@ -15,6 +15,7 @@ namespace Back
         public double limiteCredito { get; set; }
         public string estado { get; set; } // Activa,Pausada,Bloqueada
         public double montoDeuda { get; set; }
+        public Cliente titular { get; set; }
         List<Transacciones> listaTransacciones { get; set;}
 
 

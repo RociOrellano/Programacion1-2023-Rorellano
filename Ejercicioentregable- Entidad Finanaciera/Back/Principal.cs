@@ -131,15 +131,17 @@ namespace Back
         {
             using (var context = new ApplicationDbContext()) 
             {
-                Tarjeta_de_Crédito cuentaTitular = new Tarjeta_de_Crédito();
-
-                var listaTransacciones = context.Transacciones.ToList();
-
-                //return ("Numero de Tarjeta"{ tarjetaDeCredito.numerotarjeta}, "Limite de Credito"{ tarjetaDeCredito.limiteCredito} "Estado" { tarjetaDeCredito.estado}, "Monto Adeudado"{ tarjetaDeCredito.montoDeuda}, "Transacciones" { tarjetaDeCredito.listaTransacciones});
-                
-
+                Tarjeta_de_Crédito tarjetaSolicitada = new Tarjeta_de_Crédito();
+                if(tarjetaSolicitada == tarjetaDeCredito)
+                {
+                    return $"Nurero de Tarjeta: {tarjetaDeCredito.numerotarjeta}, Limite de Credito: {tarjetaDeCredito.limiteCredito} Estado: {tarjetaDeCredito.estado} Monto adeudado: {tarjetaDeCredito.montoDeuda} Transacciones: {context.Transacciones.ToList()}";
+                }
 
 
+
+
+
+                context.SaveChanges();
             }
             
         }

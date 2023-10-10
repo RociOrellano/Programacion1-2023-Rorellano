@@ -19,12 +19,28 @@ namespace Front
 
         private void depositoToolStripMenuItem_Click(object sender, EventArgs e)
         {
-
+            TranscDeposito form = new TranscDeposito();
+            form.Show();
+            this.Hide();
         }
 
         private void transferirToolStripMenuItem_Click(object sender, EventArgs e)
         {
 
+        }
+
+        private void extraccionToolStripMenuItem_Click(object sender, EventArgs e)
+        {
+            TranscaExtraccion form = new TranscaExtraccion();
+            form.Show();
+            this.Hide();
+        }
+
+        private void pagarTarjetaCreditoToolStripMenuItem_Click(object sender, EventArgs e)
+        {
+            PagoTarjeta form = new PagoTarjeta();
+            form.Show();
+            this.Hide();
         }
     }
 }

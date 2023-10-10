@@ -133,8 +133,7 @@ namespace Back
             {
                 Tarjeta_de_Crédito tarjetaSolicitada = new Tarjeta_de_Crédito();
                 if(tarjetaSolicitada == tarjetaDeCredito)
-                {
-                    return $"Nurero de Tarjeta: {tarjetaDeCredito.numerotarjeta}, Limite de Credito: {tarjetaDeCredito.limiteCredito} Estado: {tarjetaDeCredito.estado} Monto adeudado: {tarjetaDeCredito.montoDeuda} Transacciones: {context.Transacciones.ToList()}";
+                {//return $"Nurero de Tarjeta: {tarjetaDeCredito.numerotarjeta}, Limite de Credito: {tarjetaDeCredito.limiteCredito} Estado: {tarjetaDeCredito.estado} Monto adeudado: {tarjetaDeCredito.montoDeuda} Transacciones: {context.Transacciones.ToList()}";
                 }
 
 

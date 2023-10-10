@@ -11,18 +11,19 @@ using System.Windows.Forms;
 
 namespace Front
 {
-    public partial class aTarjetaCredito : Form
+    public partial class TranscDeposito : Form
     {
         Principal principal = new Principal();
-        public aTarjetaCredito()
+        public TranscDeposito()
         {
             InitializeComponent();
         }
 
-        private void butagregar_Click(object sender, EventArgs e)
+        private void button1_Click(object sender, EventArgs e)
         {
-            // Cliente cliente = new Cliente();
-            // principal.EmitirTarjetaCredito(cliente);
+            principal.RealizarDeposito(double.Parse(txtDeposito.Text));
+            //agrgar la transaccion a las transacciones    
+
 
         }
     }

@@ -23,7 +23,7 @@ namespace Front
         {
             Cuenta_Bancaria nuevaCuenta = new Cuenta_Bancaria();
             nuevaCuenta.numeroCuenta = int.Parse(txtnumcuenta.Text);
-            nuevaCuenta.titular = (Cliente)txttitular.Text; 
+            //nuevaCuenta.titular = (Cliente)txttitular.Text; 
             nuevaCuenta.tipo = txttipo.Text;
             nuevaCuenta.saldo = double.Parse(txtsaldo.Text);
 

@@ -10,7 +10,7 @@ namespace Back
     public class Tarjeta_de_Crédito
     {
         [Key]
-        public int idTarjetaCredito { get; set; }
+        public int idTarjetaCredito { get; set; } //autonumerico
         public int numerotarjeta { get; set; }
         public double limiteCredito { get; set; }
         public string estado { get; set; } // Activa,Pausada,Bloqueada

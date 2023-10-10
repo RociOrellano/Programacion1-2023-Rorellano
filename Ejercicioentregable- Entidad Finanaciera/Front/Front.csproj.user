@@ -10,6 +10,18 @@
     <Compile Update="aTarjetaCredito.cs">
       <SubType>Form</SubType>
     </Compile>
+    <Compile Update="PagoTarjeta.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Update="TranscExtraccion.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Update="TranscDeposito.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Update="TransaccionesData.cs">
+      <SubType>Form</SubType>
+    </Compile>
     <Compile Update="Inicio.cs">
       <SubType>Form</SubType>
     </Compile>
@@ -17,6 +29,9 @@
       <SubType>Form</SubType>
     </Compile>
     <Compile Update="MenuEntidad.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Update="TranscTransf.cs">
       <SubType>Form</SubType>
     </Compile>
   </ItemGroup>

@@ -43,7 +43,6 @@ C:\Users\rocio\OneDrive\Documentos\GitHub\Programacion1-2023-Rorellano\Ejercicio
 C:\Users\rocio\OneDrive\Documentos\GitHub\Programacion1-2023-Rorellano\Ejercicioentregable- Entidad Finanaciera\Front\bin\Debug\net6.0-windows\Back.dll
 C:\Users\rocio\OneDrive\Documentos\GitHub\Programacion1-2023-Rorellano\Ejercicioentregable- Entidad Finanaciera\Front\bin\Debug\net6.0-windows\Back.pdb
 C:\Users\rocio\OneDrive\Documentos\GitHub\Programacion1-2023-Rorellano\Ejercicioentregable- Entidad Finanaciera\Front\obj\Debug\net6.0-windows\Front.csproj.AssemblyReference.cache
-C:\Users\rocio\OneDrive\Documentos\GitHub\Programacion1-2023-Rorellano\Ejercicioentregable- Entidad Finanaciera\Front\obj\Debug\net6.0-windows\Front.Form1.resources
 C:\Users\rocio\OneDrive\Documentos\GitHub\Programacion1-2023-Rorellano\Ejercicioentregable- Entidad Finanaciera\Front\obj\Debug\net6.0-windows\Front.csproj.GenerateResource.cache
 C:\Users\rocio\OneDrive\Documentos\GitHub\Programacion1-2023-Rorellano\Ejercicioentregable- Entidad Finanaciera\Front\obj\Debug\net6.0-windows\Front.GeneratedMSBuildEditorConfig.editorconfig
 C:\Users\rocio\OneDrive\Documentos\GitHub\Programacion1-2023-Rorellano\Ejercicioentregable- Entidad Finanaciera\Front\obj\Debug\net6.0-windows\Front.AssemblyInfoInputs.cache
@@ -55,3 +54,10 @@ C:\Users\rocio\OneDrive\Documentos\GitHub\Programacion1-2023-Rorellano\Ejercicio
 C:\Users\rocio\OneDrive\Documentos\GitHub\Programacion1-2023-Rorellano\Ejercicioentregable- Entidad Finanaciera\Front\obj\Debug\net6.0-windows\Front.pdb
 C:\Users\rocio\OneDrive\Documentos\GitHub\Programacion1-2023-Rorellano\Ejercicioentregable- Entidad Finanaciera\Front\obj\Debug\net6.0-windows\Front.genruntimeconfig.cache
 C:\Users\rocio\OneDrive\Documentos\GitHub\Programacion1-2023-Rorellano\Ejercicioentregable- Entidad Finanaciera\Front\obj\Debug\net6.0-windows\ref\Front.dll
+C:\Users\rocio\OneDrive\Documentos\GitHub\Programacion1-2023-Rorellano\Ejercicioentregable- Entidad Finanaciera\Front\obj\Debug\net6.0-windows\Front.aCliente.resources
+C:\Users\rocio\OneDrive\Documentos\GitHub\Programacion1-2023-Rorellano\Ejercicioentregable- Entidad Finanaciera\Front\obj\Debug\net6.0-windows\Front.aCtaBancaria.resources
+C:\Users\rocio\OneDrive\Documentos\GitHub\Programacion1-2023-Rorellano\Ejercicioentregable- Entidad Finanaciera\Front\obj\Debug\net6.0-windows\Front.aTarjetaCredito.resources
+C:\Users\rocio\OneDrive\Documentos\GitHub\Programacion1-2023-Rorellano\Ejercicioentregable- Entidad Finanaciera\Front\obj\Debug\net6.0-windows\Front.Inicio.resources
+C:\Users\rocio\OneDrive\Documentos\GitHub\Programacion1-2023-Rorellano\Ejercicioentregable- Entidad Finanaciera\Front\obj\Debug\net6.0-windows\Front.MenuCliente.resources
+C:\Users\rocio\OneDrive\Documentos\GitHub\Programacion1-2023-Rorellano\Ejercicioentregable- Entidad Finanaciera\Front\obj\Debug\net6.0-windows\Front.MenuEntidad.resources
+C:\Users\rocio\OneDrive\Documentos\GitHub\Programacion1-2023-Rorellano\Ejercicioentregable- Entidad Finanaciera\Front\obj\Debug\net6.0-windows\Front.TransaccionesData.resources

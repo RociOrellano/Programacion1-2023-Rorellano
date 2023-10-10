@@ -67,6 +67,7 @@
             extraccionToolStripMenuItem.Name = "extraccionToolStripMenuItem";
             extraccionToolStripMenuItem.Size = new Size(230, 26);
             extraccionToolStripMenuItem.Text = "Extraccion";
+            extraccionToolStripMenuItem.Click += extraccionToolStripMenuItem_Click;
             // 
             // transferirToolStripMenuItem
             // 
@@ -80,6 +81,7 @@
             pagarTarjetaCreditoToolStripMenuItem.Name = "pagarTarjetaCreditoToolStripMenuItem";
             pagarTarjetaCreditoToolStripMenuItem.Size = new Size(230, 26);
             pagarTarjetaCreditoToolStripMenuItem.Text = "Pagar Tarjeta Credito";
+            pagarTarjetaCreditoToolStripMenuItem.Click += pagarTarjetaCreditoToolStripMenuItem_Click;
             // 
             // resumenTarjetaToolStripMenuItem
             // 
